@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logoSvg from '../assets/logo.svg';
 import { authService } from '../services/authService';
 
+// Võ Quốc An - CE10460
 export default function LoginPage({ onLoginSuccess }) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

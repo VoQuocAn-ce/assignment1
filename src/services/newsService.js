@@ -1,5 +1,6 @@
 import { STORAGE_KEYS, INITIAL_NEWS, loadStorage, saveStorage } from './mockData';
 
+// Võ Quốc An - CE10460
 export const newsService = {
   getAll: () => {
     return loadStorage(STORAGE_KEYS.NEWS, INITIAL_NEWS);

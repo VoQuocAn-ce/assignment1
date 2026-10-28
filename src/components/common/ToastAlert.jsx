@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 
+// Võ Quốc An - CE10460
 export default function ToastAlert({ message, type = 'success', onClose, duration = 3500 }) {
   useEffect(() => {
     if (!message) return;

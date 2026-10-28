@@ -1,5 +1,5 @@
 // Mock Data and LocalStorage Persistence Service for FUNewsManagementSystem
-
+// Võ Quốc An - CE10460
 export const ROLE = {
   ADMIN: 1,
   STAFF: 2

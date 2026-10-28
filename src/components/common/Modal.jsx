@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 
+// Võ Quốc An - CE10460
 export default function Modal({ isOpen, title, onClose, children, footer, maxWidth = '560px' }) {
   // Close on Escape key
   useEffect(() => {

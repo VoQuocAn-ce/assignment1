@@ -8,6 +8,7 @@ import NewsManagement from './pages/NewsManagement';
 import UserManagement from './pages/UserManagement';
 import SettingsPage from './pages/SettingsPage';
 
+// Võ Quốc An - CE10460
 export default function App() {
   const [currentUser, setCurrentUser] = useState(null);
   const [activeTab, setActiveTab] = useState('dashboard');

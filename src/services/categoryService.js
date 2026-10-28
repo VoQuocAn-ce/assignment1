@@ -1,5 +1,6 @@
 import { STORAGE_KEYS, INITIAL_CATEGORIES, loadStorage, saveStorage } from './mockData';
 
+// Võ Quốc An - CE10460
 export const categoryService = {
   getAll: () => {
     return loadStorage(STORAGE_KEYS.CATEGORIES, INITIAL_CATEGORIES);

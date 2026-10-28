@@ -3,6 +3,7 @@ import { resetAllMockData } from '../services/mockData';
 import ToastAlert from '../components/common/ToastAlert';
 import ConfirmDialog from '../components/common/ConfirmDialog';
 
+// Võ Quốc An - CE10460
 export default function SettingsPage({ currentUser }) {
   const [toast, setToast] = useState({ message: '', type: 'success' });
   const [isResetConfirmOpen, setIsResetConfirmOpen] = useState(false);

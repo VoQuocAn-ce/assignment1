@@ -5,6 +5,7 @@ import ConfirmDialog from '../components/common/ConfirmDialog';
 import EmptyState from '../components/common/EmptyState';
 import ToastAlert from '../components/common/ToastAlert';
 
+// Võ Quốc An - CE10460
 export default function CategoryManagement() {
   const [categories, setCategories] = useState([]);
   const [searchKeyword, setSearchKeyword] = useState('');

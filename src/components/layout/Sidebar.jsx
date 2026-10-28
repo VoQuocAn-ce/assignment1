@@ -1,6 +1,7 @@
 import React from 'react';
 import logoSvg from '../../assets/logo.svg';
 
+// Võ Quốc An - CE10460
 export default function Sidebar({ activeTab, onSelectTab, currentUser, onLogout }) {
   const menuItems = [
     { key: 'dashboard', label: 'Dashboard', icon: 'bi-grid-1x2-fill' },

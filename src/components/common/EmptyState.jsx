@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Võ Quốc An - CE10460
 export default function EmptyState({
   icon = 'bi-inbox',
   title = 'No records found',

@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import Header from './Header';
 
+// Võ Quốc An - CE10460
 export default function AdminLayout({ activeTab, onSelectTab, currentUser, onLogout, children }) {
   const getPageTitle = (tab) => {
     switch (tab) {

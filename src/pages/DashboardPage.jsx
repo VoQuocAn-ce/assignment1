@@ -4,6 +4,7 @@ import { newsService } from '../services/newsService';
 import { userService } from '../services/userService';
 import { ROLE } from '../services/mockData';
 
+// Võ Quốc An - CE10460
 export default function DashboardPage({ onNavigate }) {
   const [categories, setCategories] = useState([]);
   const [news, setNews] = useState([]);

@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from './Modal';
 
+// Võ Quốc An - CE10460
 export default function ConfirmDialog({
   isOpen,
   title = 'Confirm Deletion',

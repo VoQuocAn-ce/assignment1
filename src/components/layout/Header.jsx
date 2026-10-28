@@ -1,6 +1,7 @@
 import React from 'react';
 import { ROLE } from '../../services/mockData';
 
+// Võ Quốc An - CE10460
 export default function Header({ pageTitle, currentUser, onLogout }) {
   const isAdmin = currentUser?.role === ROLE.ADMIN;
 
